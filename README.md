@@ -47,3 +47,7 @@ npm install
 npm run dev
 ```
 
+## Contributing
+
+You're welcome to submit issues or pull requests if you'd like to contribute to enhancing this project.
+
