@@ -30,5 +30,6 @@ This is a simple web-based Password Generator that allows users to create strong
 
 ## 🛠 Installation & Setup
 
-  git clone https://github.com/Nayanprajapati/Password_Generator.git
-  cd Password_Generator
+```sh
+git clone https://github.com/Nayanprajapati/Password_Generator.git
+cd Password_Generator
