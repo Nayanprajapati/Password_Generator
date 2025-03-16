@@ -43,5 +43,16 @@ function copyPassword() {
 
   navigator.clipboard.writeText(copyText.value);
 
-  alert("Copied the password: " + copyText.value);
+  // Show the Toastify toast
+  Toastify({
+    text: "Password copied to clipboard!",
+    duration: 3000, // Toast will appear for 3 seconds
+    close: true, // Show close button
+    gravity: "top", // Position the toast at the top of the screen
+    position: "center", // Center it horizontally
+    className: "toast-custom", // Optional custom class for additional styling
+    style: {
+      background: "#333", // Background color of the toast
+    },
+  }).showToast();
 }
