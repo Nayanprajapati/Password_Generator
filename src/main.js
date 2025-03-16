@@ -38,9 +38,25 @@ function generate() {
 function copyPassword() {
   const copyText = result;
 
+  // check if the password is empty
+  if (!copyText.value || copyText.value === "password") {
+    Toastify({
+      text: "Generate a password first!",
+      duration: 3000, // Toast will appear for 3 seconds
+      close: true, // Show close button
+      gravity: "top", // Position the toast at the top of the screen
+      position: "center", // Center it horizontally
+      className: "toast-custom", // Optional custom class for additional styling
+      style: {
+        background: "red", // Background color of the toast
+      },
+    }).showToast();
+    return; // stop the function if no password is generated
+  }
+
+  // selects and copy the password
   copyText.select();
   copyText.setSelectionRange(0, copyText.value.length);
-
   navigator.clipboard.writeText(copyText.value);
 
   // Show the Toastify toast
@@ -52,7 +68,7 @@ function copyPassword() {
     position: "center", // Center it horizontally
     className: "toast-custom", // Optional custom class for additional styling
     style: {
-      background: "#333", // Background color of the toast
+      background: "green", // Background color of the toast
     },
   }).showToast();
 }

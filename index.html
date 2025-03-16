@@ -11,40 +11,43 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
-<body>
-  <div id="Password_Generator">
-    <div id="password">
-      <input type="text" id="result" value="password" readonly>
-      <button id="copy-button">COPY</button>
-    </div>
-    <label for="password-length">Password Length:</label>
-    <input type="range" min="8" max="34" value="8" name="password-length" id="password-length"
-      oninput="this.nextElementSibling.value = this.value">
-    <output>8</output>
-    <div id="options">
-      <label>
-        <input type="checkbox" id="lowercase-option">
-        <span>Lowercase(a-z)</span>
-      </label>
-      <label>
-        <input type="checkbox" id="uppercase-option">
-        <span>Uppercase(A-Z)</span>
-      </label>
-      <label>
-        <input type="checkbox" id="numbers-option" checked>
-        <span>Numbers(0-9)</span>
-      </label>
-      <label>
-        <input type="checkbox" id="symbols-option">
-        <span>Symbols(!@#$%&*)</span>
-      </label>
-    </div>
-    <button id="generate-button">GENERATE</button>
-  </div>
+<!-- <body style="background: url('/public/Assets/background.png') no-repeat center center/cover;"> -->
 
-  <!-- Toastify JS -->
-  <script src="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.js"></script>
-  <script type="module" src="/src/main.js"></script>
-</body>
+
+  <body>
+    <div id="Password_Generator">
+      <div id="password">
+        <input type="text" id="result" value="password" readonly>
+        <button id="copy-button">COPY</button>
+      </div>
+      <label for="password-length">Password Length:</label>
+      <input type="range" min="8" max="34" value="8" name="password-length" id="password-length"
+        oninput="this.nextElementSibling.value = this.value">
+      <output>8</output>
+      <div id="options">
+        <label>
+          <input type="checkbox" id="lowercase-option">
+          <span>Lowercase(a-z)</span>
+        </label>
+        <label>
+          <input type="checkbox" id="uppercase-option">
+          <span>Uppercase(A-Z)</span>
+        </label>
+        <label>
+          <input type="checkbox" id="numbers-option" checked>
+          <span>Numbers(0-9)</span>
+        </label>
+        <label>
+          <input type="checkbox" id="symbols-option">
+          <span>Symbols(!@#$%&*)</span>
+        </label>
+      </div>
+      <button id="generate-button">GENERATE</button>
+    </div>
+
+    <!-- Toastify JS -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 
 </html>
