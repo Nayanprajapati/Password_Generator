@@ -14,3 +14,19 @@ This is a simple web-based Password Generator that allows users to create strong
    - 🔣 Symbols (!@#$%^&\*)
 3. ⚡ One-click password generation
 4. 📋 Copy the generated password to the clipboard
+
+## 🛠 Technologies Used
+
+- 🏗 HTML
+- 🎨 CSS
+- 🖥 JavaScript
+
+## 🚀 How to Use
+
+1. 📏 Select the desired password length using the slider.
+2. 🔘 Choose the character types to include in the password.
+3. 🎲 Click the Generate button to create a new password.
+4. 📋 Use the Copy button to copy the password to your clipboard.
+
+## 🛠 Installation & Setup
+ [ https://github.com/Nayanprajapati/Password_Generator.git]
