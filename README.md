@@ -29,4 +29,7 @@ This is a simple web-based Password Generator that allows users to create strong
 4. 📋 Use the Copy button to copy the password to your clipboard.
 
 ## 🛠 Installation & Setup
- [ https://github.com/Nayanprajapati/Password_Generator.git]
+  https://github.com/Nayanprajapati/Password_Generator.git 
+  cd password-
+  
+  [Contribution guidelines for this project](docs/CONTRIBUTING.md)
