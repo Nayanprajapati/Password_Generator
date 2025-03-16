@@ -32,8 +32,18 @@ This is a simple web-based Password Generator that allows users to create strong
 
 ```sh
 git clone https://github.com/Nayanprajapati/Password_Generator.git
-cd Password_Generator
+cd Password_Generator 
+```
 
+### Install Dependencies
+
+```sh
 npm install
+```
 
+### Run the Application
+
+```sh
 npm run dev
+```
+
