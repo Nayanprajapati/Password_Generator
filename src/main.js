@@ -6,9 +6,9 @@ const symbols = "!@#$%^&*+-?";
 const generateButton = document.getElementById("generate-button");
 generateButton.addEventListener("click", generate);
 
-// const result = document.getElementById("result");
-// const copyButton = document.getElementById("copy-button");
-// copyButton.addEventListener("click", copyPassword);
+const result = document.getElementById("result");
+const copyButton = document.getElementById("copy-button");
+copyButton.addEventListener("click", copyPassword);
 
 function generate() {
   let characters = "";
@@ -38,7 +38,7 @@ function generate() {
 function copyPassword() {
   const copyText = result;
 
-  // check if the password is empty 
+  // check if the password is empty
   if (!copyText.value || copyText.value === "password") {
     Toastify({
       text: "Generate a password first!",
