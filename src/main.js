@@ -6,9 +6,9 @@ const symbols = "!@#$%^&*+-?";
 const generateButton = document.getElementById("generate-button");
 generateButton.addEventListener("click", generate);
 
-const result = document.getElementById("result");
-const copyButton = document.getElementById("copy-button");
-copyButton.addEventListener("click", copyPassword);
+// const result = document.getElementById("result");
+// const copyButton = document.getElementById("copy-button");
+// copyButton.addEventListener("click", copyPassword);
 
 function generate() {
   let characters = "";
